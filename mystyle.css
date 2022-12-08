@@ -1,0 +1,183 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+    background-image:url(../IMAGES/background_optimized.jpg.jpg);
+    background-size: cover;
+    font-family: Century Schoolbook, serif;
+    margin: 0;
+     }
+
+h1, h2, h3 {
+    margin: 0;
+    padding: 25px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+    font-size: 24px;
+    line-height: 20px;
+    padding: 25px;
+    text-align: center;
+}
+
+h2 {
+    margin: 0;
+    font-size: 12px;
+    line-height: 18px;
+    padding: 25px;
+    text-align: left;
+}
+
+h3 {
+    margin: 0;
+    font-size: 12px;
+    line-height: 18px;
+    padding: 20px;
+    text-align: center;
+}
+
+#container {
+    background-color: #66FFE3;
+    width: 920px;
+    height: 980px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header {
+    font-family: Century Pro, sans-serif;
+    font-size: 24px;
+    color: black;
+    text-align: center;
+    padding: 20px;
+    margin: 0;
+}
+
+.content {
+    padding: 0;
+}
+
+.topnav {
+    width: 100%;
+    background-color: #00BF9D;
+    line-height: 24px;
+    float: left;
+}
+
+.topnav a {
+    /*display: block;
+    color: black;*/
+    text-align: center;
+    padding: 20px 20px;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+.topnav li {
+    float: left;
+}
+
+.topnav ul li {
+    float: left;
+    list-style: none;
+    position: relative;
+}
+
+#nav ul li a {
+    display: block;
+    font-family: Century Schoolbook, serif;
+    color: #000000;
+    font-size: 18px;
+    padding: 24px 14px;
+    text-decoration: none;
+}
+
+.topnav ul li ul {
+    display: none;
+    position: absolute;
+    background-color: #00BF9D;
+    padding: 10px;
+    border-radius: 0px 0px 4px 4px;
+}
+
+.topnav ul li:hover ul {
+    display: block;
+    position: absolute;
+    background-color: #CCF2EB;
+    padding: 10px;
+    padding-right: 10px;
+    border-radius: 0px 0px 4px 4px;
+}
+
+.topnav ul li ul li {
+    padding: 8px 14px;
+}
+
+.topnav ul li ul li a {
+    border-radius: 4px;
+}
+
+.topnav ul li ul li a:hover {
+    background-color: #CCF2EB;
+
+}
+
+.slider_image {
+    flex: 70%;
+    flex-wrap: nowrap;
+    display: flex;
+    background-color: #A3FFEE;
+    padding: 10px;
+    text-align: center;
+    align-content: flex-end;
+}
+
+.flex-container1 {
+    display: flex;
+    background-color: #A3FFEE;
+    padding: 25px;
+    background-color: #A3FFEE;
+    justify-content: center;
+    text-align: center;
+    clear: both;
+}
+
+.flex-container1 > div {
+    background-color: #A3FFEE;
+    color: #000000;
+    width: 70%;
+    padding: 25px;
+    text-align: center;
+    line-height: 24px;
+    font-size: 24px;
+    font-family: Century Schoolbook, serif;
+}
+
+.flex-container2 {
+    display: flex;
+    background-color: #A3FFEE;
+    justify-content: center;
+    text-align: center;
+    clear: both;
+}
+
+.flex-container2 > div {
+    background-color: #A3FFEE;
+    color: #000000;
+    width: 100%;
+    margin: 10px;
+    text-align: center;
+    align-content: center;
+    line-height: 24px;
+    font-size: 24px;
+    font-family: Century Schoolbook, serif;
+}
+
+.Title {
+    margin: 10;
+    font-size: 12px;
+    line-height: 18px;
+    padding: 50px;
+    text-align: center;
+}
