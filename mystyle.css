@@ -1,7 +1,7 @@
 @charset "utf-8";
 /* CSS Document */
 body {
-    background-image:url(../IMAGES/background_optimized.jpg.jpg);
+    background-color: #66FFE3;
     background-size: cover;
     font-family: Century Schoolbook, serif;
     margin: 0;
